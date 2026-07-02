@@ -1,0 +1,14 @@
+{
+  "name": "shawnpavel",
+  "description": "Claude Code tools shared by Shawn Pavel.",
+  "owner": {
+    "name": "Shawn Pavel"
+  },
+  "plugins": [
+    {
+      "name": "linear-pr-guard",
+      "source": "./plugins/linear-pr-guard",
+      "description": "Forces a confirmation before `gh pr create` reminding you to attach an approved Linear ticket, and ships a skill that runs the ticket check proactively. Enforces 'every PR has a tracked ticket'."
+    }
+  ]
+}

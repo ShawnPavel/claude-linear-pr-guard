@@ -1,0 +1,10 @@
+{
+  "name": "linear-pr-guard",
+  "version": "0.1.0",
+  "description": "Forces a confirmation before `gh pr create` so every PR has an associated, approved Linear ticket. Includes a skill that runs the ticket check proactively and logs work in Linear.",
+  "author": {
+    "name": "Shawn Pavel"
+  },
+  "keywords": ["linear", "pr", "workflow", "hooks", "guardrail"],
+  "license": "MIT"
+}
